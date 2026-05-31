@@ -1,0 +1,18 @@
+{
+  "name": "neighborhood-sharing-server",
+  "version": "1.0.0",
+  "description": "邻里物品借用公告板 - 后端服务",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["sharing", "neighborhood", "booking"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "uuid": "^9.0.0"
+  }
+}
